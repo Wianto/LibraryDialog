@@ -12,10 +12,6 @@ Library Dialog For Android
 			@Override
 			public void onYes() {
 				// TODO Auto-generated method stub
-				removeChatNotification();
-				keepScreen(false);
-				if(server!=null) server.stop();
-				settings.saveString("examActive", "");
 				finish();
 				System.exit(0);
 			}
