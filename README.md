@@ -3,7 +3,9 @@ LibraryDialog
 
 Library Dialog For Android
 
-public void dialogQuit() {
+#### 1. How to Use
+``` java
+	public void dialogQuit() {
 		DialogApplication dialogApp = new DialogApplication(mContext);
 		dialogApp.open("Konfirmasi", "Keluar Aplikasi ?", new OnDialog(){
 
@@ -26,3 +28,4 @@ public void dialogQuit() {
 			
 		});
     }
+```
