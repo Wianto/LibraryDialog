@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** /res/layout/quickaction.xml
+**
+** Author: Lorensius W. L. T <lorenz@londatiga.net>
+**
+*/ 
+
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/textfield_default"
+    android:gravity="center_horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="0dp" >
+	
+    <LinearLayout
+        android:id="@+id/layInner"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+	        android:id="@+id/layTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/border_bottom"
+	        android:gravity="center_horizontal"
+	        android:orientation="horizontal"
+	        android:paddingTop="5dp" >
+	
+	        <TextView
+	            android:id="@+id/dialogTitle"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:ellipsize="end"
+	            android:maxLines="1"
+	            android:paddingBottom="12dp"
+	            android:paddingLeft="5dp"
+	            android:paddingRight="12dp"
+	            android:paddingTop="12dp"
+	            android:scrollHorizontally="true"
+	            android:text="@string/dialog"
+	            android:textColor="#333333"
+	            android:textSize="16sp"
+	            android:textStyle="bold" />
+	
+	    </LinearLayout>
+
+		<TextView
+		    android:id="@+id/dialogText"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:singleLine="false"
+		    android:paddingBottom="12dp"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="12dp"
+		    android:paddingTop="12dp"
+		    android:scrollHorizontally="true"
+		    android:text="@string/dialog"
+		    android:textColor="#666666"
+		    android:textSize="16sp"
+		    android:textStyle="bold" />
+
+	    <LinearLayout
+	        android:id="@+id/layButton"
+	        android:layout_width="260dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/buttonYes"
+	            style="@style/ButtonAppTheme"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_weight="0.50"
+	            android:background="@drawable/grey_button_yes"
+	            android:text="@string/yes" >
+	        </Button>
+
+	        <Button
+	            android:id="@+id/buttonNo"
+	            style="@style/ButtonAppTheme"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_weight="0.50"
+	            android:background="@drawable/grey_button_no"
+	            android:text="@string/no" >
+	        </Button>
+	    </LinearLayout>
+
+	</LinearLayout>
+    
+
+</RelativeLayout>

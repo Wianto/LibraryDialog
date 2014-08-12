@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/chat_activity.xml" />
+        <ignore path="res/layout/chat_box.xml" />
+        <ignore path="res/layout/chat_button.xml" />
+        <ignore path="res/layout/chat_head.xml" />
+        <ignore path="res/layout/chat_image.xml" />
+        <ignore path="res/layout/chat_left_audio.xml" />
+        <ignore path="res/layout/chat_message_left.xml" />
+        <ignore path="res/layout/chat_right_audio.xml" />
+        <ignore path="res/layout/chat_text.xml" />
+        <ignore path="res/layout/my_product_item.xml" />
+        <ignore path="res/layout/product_item.xml" />
+        <ignore path="res/layout/product_item_user.xml" />
+        <ignore path="res/layout/profile_activity.xml" />
+        <ignore path="res/layout/profile_page_activity.xml" />
+        <ignore path="res/layout/quickaction.xml" />
+        <ignore path="res/layout/smiley_item.xml" />
+        <ignore path="res/layout/store_item.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/chat_activity.xml" />
+        <ignore path="res/layout/chat_box.xml" />
+        <ignore path="res/layout/chat_head.xml" />
+        <ignore path="res/layout/chat_remove.xml" />
+        <ignore path="res/layout/my_product_item.xml" />
+        <ignore path="res/layout/product_item.xml" />
+        <ignore path="res/layout/product_item_user.xml" />
+        <ignore path="res/layout/product_search_activity.xml" />
+        <ignore path="res/layout/profile_page_activity.xml" />
+        <ignore path="res/layout/quickaction.xml" />
+        <ignore path="res/layout/search_store_activity.xml" />
+        <ignore path="res/layout/store_item.xml" />
+    </issue>
+    <issue id="Overdraw">
+        <ignore path="res/layout/change_password_form.xml" />
+        <ignore path="res/layout/login_form.xml" />
+        <ignore path="res/layout/profile_edit.xml" />
+        <ignore path="res/layout/register_form.xml" />
+        <ignore path="res/layout/search_store_activity.xml" />
+        <ignore path="res/layout/store_post_activity.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/my_product_item.xml" />
+        <ignore path="res/layout/product_item.xml" />
+        <ignore path="res/layout/product_item_user.xml" />
+        <ignore path="res/layout/product_search_activity.xml" />
+        <ignore path="res/layout/profile_page_activity.xml" />
+        <ignore path="res/layout/search_store_activity.xml" />
+        <ignore path="res/layout/store_item.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/chage_password_activity.xml" />
+        <ignore path="res/layout/quickaction.xml" />
+        <ignore path="res/layout/register_form.xml" />
+    </issue>
+    <issue id="UnknownIdInLayout">
+        <ignore path="res/layout/chat_box.xml" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="res/layout/store_post_activity.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/product_item.xml" />
+        <ignore path="res/layout/store_item.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/cropper_activity.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/change_password_form.xml" />
+        <ignore path="res/layout/dialog_form.xml" />
+        <ignore path="res/layout/login_activity.xml" />
+        <ignore path="res/layout/login_form.xml" />
+        <ignore path="res/layout/my_product_item.xml" />
+        <ignore path="res/layout/product_item.xml" />
+        <ignore path="res/layout/product_item_user.xml" />
+        <ignore path="res/layout/profile_page_activity.xml" />
+        <ignore path="res/layout/register_form.xml" />
+        <ignore path="res/layout/store_item.xml" />
+    </issue>
+</lint>

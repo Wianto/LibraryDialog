@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="DialogFromBottom">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+	</style>
+	
+    <style name="DialogFromCenter">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+	
+    <!-- Animation for dialog box -->
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogFromBottom</item>
+    </style>
+    
+    <!-- Animation for dialog box -->
+    <style name="DialogCenterAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogFromCenter</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+    </style>
+</resources>
